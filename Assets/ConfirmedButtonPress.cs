@@ -4,17 +4,10 @@ using UnityEngine;
 
 public class ConfirmedButtonPress : MonoBehaviour
 {
-    public Material[] material;
-    private Renderer rend;
 
-    void Start()
+    public void confirm(Material confirmMaterial)
     {
-        rend = GetComponent<Renderer>();
-        rend.sharedMaterial = material[0];
-    }
-
-    public void confirm()
-    {
-        rend.sharedMaterial = material[1];
+        GameObject childButton = transform.GetChild(0).gameObject;
+        childButton.GetComponent<Renderer>().sharedMaterial = confirmMaterial;
     }
 }
