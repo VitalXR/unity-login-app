@@ -10,5 +10,7 @@ EditorBuildSettings:
       type: 2}
     Varjo.XR.Settings: {fileID: 11400000, guid: 96a8ce8ed8e553949b35d358c52767ee,
       type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
+      type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2ea551e131673d48822983766d36033,
       type: 2}
