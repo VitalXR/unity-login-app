@@ -18,7 +18,7 @@ public class AuthScript : MonoBehaviour
     {
         errorText.SetActive(false);
 
-        string username = "d56aae88-62da-49de-8340-5d7a257c6995a";
+        string username = "d56aae88-62da-49de-8340-5d7a257c6995";
         string password = "NewPassword456$";
 
         Token token = await GetTokensAsync(username, password);
