@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,12 +15,18 @@ public class AuthScript : MonoBehaviour
     string _poolID = "ca-central-1_9P0HNlZKD";
     string _clientID = "e576vvntvnekgrngackrfcc79";
 
+    public TMP_InputField usernameInput;
+    public TMP_InputField passwordInput;
+
     public async void AuthenticateUser()
     {
         errorText.SetActive(false);
 
-        string username = "d56aae88-62da-49de-8340-5d7a257c6995";
-        string password = "NewPassword456$";
+        //string username = "d56aae88-62da-49de-8340-5d7a257c6995";
+        //string password = "NewPassword456$";
+
+        string username = usernameInput.text;
+        string password = passwordInput.text;
 
         Token token = await GetTokensAsync(username, password);
         Debug.Log(token?.refreshToken);
