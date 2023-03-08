@@ -7,16 +7,15 @@ using System;
 public class AwsCognitoAuth
 {
     // Below used to authenticate with cognito pool.
-    // TODO: need to be updated w/ actual cognito pool created by Wei - for now using a test pool.
     // TODO: add as env variables ideally.
-    string _poolID = "ca-central-1_9P0HNlZKD";
-    string _clientID = "e576vvntvnekgrngackrfcc79";
+    string _poolID = "ca-central-1_OlaljS10Q";
+    string _clientID = "13ipgiteb6lu6o3f3tlg70dr9q";
 
     public async Task<Token> GetTokensAsync(string username, string password)
     {
         // Setting up cognito auth request. need to include a region endpoint
         // in the provider client, unless something is set locally through AWS CLI.
-        // TODO: add as env variable.
+        // TODO: add as env variable ideally.
         AmazonCognitoIdentityProviderClient provider =
             new AmazonCognitoIdentityProviderClient(new Amazon.Runtime.AnonymousAWSCredentials(), Amazon.RegionEndpoint.CACentral1);
         CognitoUserPool userPool = new CognitoUserPool(_poolID, _clientID, provider);

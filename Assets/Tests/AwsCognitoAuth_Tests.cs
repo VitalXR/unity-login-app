@@ -14,7 +14,7 @@ public class AwsCognitoAuth_Tests
     {
         // Use the Assert class to test conditions
         AwsCognitoAuth auth = new AwsCognitoAuth();
-        var token = auth.GetTokensAsync("d56aae88-62da-49de-8340-5d7a257c6995", "NewPassword456$");
+        var token = auth.GetTokensAsync("ruhajaved2826@gmail.com", "Hello123!");
         token.Wait();
         // TODO: Figure out why Debug.Log does not log access token, just says
         // object, but Console.WriteLine does
