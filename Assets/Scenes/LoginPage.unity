@@ -1235,6 +1235,7 @@ MonoBehaviour:
   errorText: {fileID: 1239910900}
   usernameInput: {fileID: 1402931051}
   passwordInput: {fileID: 340847715}
+  errorMaterial: {fileID: 2100000, guid: 1e25f68bc8fd47a4a8e89b40d6a2d803, type: 2}
 --- !u!1 &443046026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1556,6 +1557,7 @@ MonoBehaviour:
   errorText: {fileID: 1239910900}
   usernameInput: {fileID: 1402931051}
   passwordInput: {fileID: 340847715}
+  errorMaterial: {fileID: 0}
 --- !u!114 &578830394
 MonoBehaviour:
   m_ObjectHideFlags: 0

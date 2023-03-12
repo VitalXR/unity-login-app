@@ -17,6 +17,7 @@ public class AuthScript : MonoBehaviour
 
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
+    public Material errorMaterial;
 
     public async void AuthenticateUser()
     {
@@ -36,6 +37,8 @@ public class AuthScript : MonoBehaviour
         {
             //Show error msg, maybe popup later
             errorText.SetActive(true);
+            GameObject childButton = transform.GetChild(0).gameObject;
+            childButton.GetComponent<Renderer>().sharedMaterial = errorMaterial;
         }
         else
         {
