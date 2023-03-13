@@ -11,9 +11,9 @@ using UnityEngine.SceneManagement;
 public class AuthScript : MonoBehaviour
 {
     public GameObject errorText;
-    
-    string _poolID = "ca-central-1_9P0HNlZKD";
-    string _clientID = "e576vvntvnekgrngackrfcc79";
+
+    string _poolID = "ca-central-1_OlaljS10Q";
+    string _clientID = "13ipgiteb6lu6o3f3tlg70dr9q";
 
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
