@@ -12,7 +12,7 @@ public class AuthScript : MonoBehaviour
 {
     public GameObject errorText;
     
-    string _poolID = "ca-central-1_9P0HNlZKD";
+    string _poolID = "ca-central-1_mXT7oFuXG";
     string _clientID = "e576vvntvnekgrngackrfcc79";
 
     public TMP_InputField usernameInput;
