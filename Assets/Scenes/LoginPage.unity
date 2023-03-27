@@ -1069,7 +1069,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1e25f68bc8fd47a4a8e89b40d6a2d803, type: 2}
+      objectReference: {fileID: 2100000, guid: 47b086af416855549a6ac8e53504c271, type: 2}
     - target: {fileID: 114193398573130750, guid: df84af96020c94b4695aec5c3427db16,
         type: 3}
       propertyPath: _springForce
@@ -1144,7 +1144,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 2100000, guid: d2ce673d42d3fe0499dbb98f184c52c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 200b4bba4f6ecbf49b3f7c8338154c4a, type: 2}
     - target: {fileID: 114193398573130750, guid: df84af96020c94b4695aec5c3427db16,
         type: 3}
       propertyPath: _OnUnpress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -7110,7 +7110,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1e25f68bc8fd47a4a8e89b40d6a2d803, type: 2}
+      objectReference: {fileID: 2100000, guid: 47b086af416855549a6ac8e53504c271, type: 2}
     - target: {fileID: 114193398573130750, guid: df84af96020c94b4695aec5c3427db16,
         type: 3}
       propertyPath: _springForce
@@ -7185,7 +7185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 2100000, guid: d2ce673d42d3fe0499dbb98f184c52c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 200b4bba4f6ecbf49b3f7c8338154c4a, type: 2}
     - target: {fileID: 114193398573130750, guid: df84af96020c94b4695aec5c3427db16,
         type: 3}
       propertyPath: _OnUnpress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
