@@ -13,8 +13,8 @@ public class AuthScript : MonoBehaviour
 {
     public GameObject errorText;
     
-    string _poolID = "ca-central-1_9P0HNlZKD";
-    string _clientID = "e576vvntvnekgrngackrfcc79";
+    string _poolID = "ca-central-1_mXT7oFuXG";
+    string _clientID = "2ofpc2lft33nbe2nklbu46rlis";
 
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
@@ -23,8 +23,8 @@ public class AuthScript : MonoBehaviour
     {
         errorText.SetActive(false);
 
-        //string username = "d56aae88-62da-49de-8340-5d7a257c6995";
-        //string password = "NewPassword456$";
+        //string username = "wei.kang8775@gmail.com";
+        //string password = "Wei.kang123";
 
         string username = usernameInput.text;
         string password = passwordInput.text;
@@ -41,7 +41,7 @@ public class AuthScript : MonoBehaviour
         else
         {
             //save token globally
-            string tokenString = JsonConvert.SerializeObject(token);
+            string tokenString = JsonConvert.SerializeObject(token.accessToken);
             Debug.Log(tokenString);
             PlayerPrefs.SetString("token", tokenString);
             //switch scene
