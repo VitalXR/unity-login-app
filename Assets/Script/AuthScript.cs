@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Newtonsoft.Json;
 
 public class AuthScript : MonoBehaviour
 {
     public GameObject errorText;
     
-    string _poolID = "ca-central-1_mXT7oFuXG";
+    string _poolID = "ca-central-1_9P0HNlZKD";
     string _clientID = "e576vvntvnekgrngackrfcc79";
 
     public TMP_InputField usernameInput;
@@ -40,6 +41,9 @@ public class AuthScript : MonoBehaviour
         else
         {
             //save token globally
+            string tokenString = JsonConvert.SerializeObject(token);
+            Debug.Log(tokenString);
+            PlayerPrefs.SetString("token", tokenString);
             //switch scene
             SceneManager.LoadScene(1);
         }
