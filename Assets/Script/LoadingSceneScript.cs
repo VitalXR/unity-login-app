@@ -26,7 +26,7 @@ public class LoadingSceneScript : MonoBehaviour
     IEnumerator GotoLoadingScreen()
     {
         // Wait for the specified delay time
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(2);
     }
 
@@ -41,7 +41,7 @@ public class LoadingSceneScript : MonoBehaviour
     IEnumerator GoBackDemoPage()
     {
         // Wait for the specified delay time
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(1);
     }
 }

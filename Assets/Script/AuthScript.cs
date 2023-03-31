@@ -11,17 +11,18 @@ using Newtonsoft.Json;
 
 public class AuthScript : MonoBehaviour
 {
-    public GameObject errorText;
+    public TextMeshProUGUI errorText;
     
     string _poolID = "ca-central-1_mXT7oFuXG";
     string _clientID = "2ofpc2lft33nbe2nklbu46rlis";
 
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
+    public Material defaultMaterial;
 
     public async void AuthenticateUser()
     {
-        errorText.SetActive(false);
+        errorText.text = "";
 
         //string username = "wei.kang8775@gmail.com";
         //string password = "Wei.kang123";
@@ -29,14 +30,25 @@ public class AuthScript : MonoBehaviour
         string username = usernameInput.text;
         string password = passwordInput.text;
 
+        if (String.IsNullOrWhiteSpace(username) || String.IsNullOrWhiteSpace(password))
+        {
+            errorText.text = "Please enter both username and password";
+            GameObject childButton = transform.GetChild(0).gameObject;
+            childButton.GetComponent<Renderer>().sharedMaterial = defaultMaterial;
+            return;
+        }
+
         Token token = await GetTokensAsync(username, password);
         Debug.Log(token?.refreshToken);
         Debug.Log(token?.accessToken);
 
+
         if (token == null)
         {
             //Show error msg, maybe popup later
-            errorText.SetActive(true);
+            errorText.text = "Invalid Username/Password";
+            GameObject childButton = transform.GetChild(0).gameObject;
+            childButton.GetComponent<Renderer>().sharedMaterial = defaultMaterial;
         }
         else
         {

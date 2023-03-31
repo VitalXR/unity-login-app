@@ -10,6 +10,7 @@ public class EnableDisableButtons : MonoBehaviour
     public GameObject disabled1;
     public GameObject disabled2;
     public GameObject disabled3;
+    public Material defaultMaterial;
 
     public void activate()
     {
@@ -19,5 +20,7 @@ public class EnableDisableButtons : MonoBehaviour
         disabled1.SetActive(true);
         disabled2.SetActive(true);
         disabled3.SetActive(true);
+        GameObject childButton = transform.GetChild(0).gameObject;
+        childButton.GetComponent<Renderer>().sharedMaterial = defaultMaterial;
     }
 }
