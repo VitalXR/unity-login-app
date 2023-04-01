@@ -1,0 +1,1108 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        5.0,
+        1.1102230246251565E-16,
+        5.0
+      ],
+      "min": [
+        -5.0,
+        -1.1102230246251565E-16,
+        -5.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        750.0,
+        375.0,
+        0.0
+      ],
+      "min": [
+        -750.0,
+        -375.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 155,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 155,
+      "type": "VEC3",
+      "max": [
+        0.999948263168335,
+        0.999948263168335,
+        0.999948263168335
+      ],
+      "min": [
+        -0.999948263168335,
+        -0.999948263168335,
+        -0.999948263168335
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 155,
+      "type": "VEC4",
+      "max": [
+        0.99998164176940918,
+        0.82934188842773438,
+        0.9999852180480957,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.93671613931655884,
+        -0.9999852180480957,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 155,
+      "type": "VEC2",
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.125,
+        0.012498736381530762
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5121,
+      "count": 564,
+      "type": "SCALAR",
+      "max": [
+        154.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        640.0,
+        360.0,
+        0.0
+      ],
+      "min": [
+        -640.0,
+        -360.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.4375
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 16060
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1452,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2904,
+      "byteLength": 1936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4840,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5808,
+      "byteLength": 600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6408,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6456,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6504,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6536,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6542,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6830,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7118,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7502,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7694,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7886,
+      "byteLength": 36
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7922,
+      "byteLength": 1860
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9782,
+      "byteLength": 1860
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11642,
+      "byteLength": 2480
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14122,
+      "byteLength": 1240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15362,
+      "byteLength": 564
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15926,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15974,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16022,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16054,
+      "byteLength": 6
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 2.1752305030822754,
+        "yfov": 1.0471975803375244,
+        "zfar": 1000.1340942382813,
+        "znear": 0.30000001192092896
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "uri": "371857150CanvasMain.png",
+      "name": "Canvas"
+    },
+    {
+      "uri": "371857150CanvasMain.png",
+      "name": "Canvas"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.474509776,
+          0.9808007,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Blue"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.9793541,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "UI Blue"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.89999997615814209,
+        "roughnessFactor": 0.60000002384185791
+      },
+      "name": "Unconfirmed Button Red"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Hidden/Cognitive/Canvas Export Shader"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Plane"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1
+        }
+      ],
+      "name": "Canvas"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TANGENT": 11,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          },
+          "indices": 14,
+          "material": 2
+        }
+      ],
+      "name": "Button Platform"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "Button Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 4
+        }
+      ],
+      "name": "Canvas"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3
+        }
+      ],
+      "name": "Button Cube"
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.109381631,
+        0.8754261,
+        0.408217877,
+        -0.234569684
+      ],
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "name": "Directional Light"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "XRRig"
+    },
+    {
+      "children": [
+        3
+      ],
+      "translation": [
+        0.0,
+        1.36144,
+        0.0
+      ],
+      "name": "Camera Offset"
+    },
+    {
+      "camera": 0,
+      "name": "Main Camera"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "name": "Plane"
+    },
+    {
+      "children": [
+        6,
+        9
+      ],
+      "translation": [
+        -0.145844445,
+        1.49925244,
+        0.738
+      ],
+      "name": "Demo UI"
+    },
+    {
+      "children": [
+        7,
+        8
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "translation": [
+        0.1458444,
+        0.1,
+        0.004474819
+      ],
+      "name": "Canvas"
+    },
+    {
+      "name": "Panel"
+    },
+    {
+      "mesh": 1,
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        10,
+        17
+      ],
+      "mesh": 2,
+      "scale": [
+        1.49,
+        0.745,
+        0.05
+      ],
+      "translation": [
+        0.145,
+        0.1,
+        0.031
+      ],
+      "name": "Button Platform"
+    },
+    {
+      "children": [
+        11
+      ],
+      "scale": [
+        2.0,
+        5.0,
+        20.0
+      ],
+      "translation": [
+        0.308,
+        0.196,
+        -0.739999652
+      ],
+      "name": "Cube UI Image Button"
+    },
+    {
+      "children": [
+        12
+      ],
+      "mesh": 3,
+      "scale": [
+        0.0599921271,
+        0.05231681,
+        0.01679729
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0009
+      ],
+      "name": "Button Cube"
+    },
+    {
+      "children": [
+        13,
+        14
+      ],
+      "scale": [
+        0.97,
+        0.97,
+        0.08540045
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.539998949
+      ],
+      "name": "Cube"
+    },
+    {
+      "scale": [
+        0.035,
+        0.05,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        -0.36,
+        0.0
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "children": [
+        15,
+        16
+      ],
+      "scale": [
+        0.0007,
+        0.0007,
+        0.001
+      ],
+      "translation": [
+        -0.007,
+        0.128,
+        -0.1
+      ],
+      "name": "Canvas"
+    },
+    {
+      "scale": [
+        12.0,
+        7.0,
+        1.0
+      ],
+      "name": "Image"
+    },
+    {
+      "mesh": 4,
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        18
+      ],
+      "scale": [
+        2.0,
+        5.0,
+        20.0
+      ],
+      "translation": [
+        0.308,
+        -0.189,
+        -0.739999652
+      ],
+      "name": "Cube UI Text Button"
+    },
+    {
+      "children": [
+        19
+      ],
+      "mesh": 5,
+      "scale": [
+        0.0599921271,
+        0.05231681,
+        0.01679729
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0009
+      ],
+      "name": "Button Cube"
+    },
+    {
+      "children": [
+        20
+      ],
+      "scale": [
+        0.97,
+        0.97,
+        0.08540045
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.539998949
+      ],
+      "name": "Cube"
+    },
+    {
+      "scale": [
+        0.07,
+        0.07,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        -0.178,
+        0.0
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "children": [
+        22
+      ],
+      "name": "XR Leap Provider Manager"
+    },
+    {
+      "children": [
+        23
+      ],
+      "translation": [
+        0.0403085947,
+        0.386338323,
+        3.34811258
+      ],
+      "name": "Service Provider (XR)"
+    },
+    {
+      "translation": [
+        -0.0403085947,
+        -0.386338323,
+        -3.34811258
+      ],
+      "name": "GhostHands"
+    },
+    {
+      "children": [
+        25,
+        32
+      ],
+      "name": "Interaction Manager"
+    },
+    {
+      "children": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "name": "Interaction Hand (Left)"
+    },
+    {
+      "name": "Palm Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "children": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "name": "Interaction Hand (Right)"
+    },
+    {
+      "name": "Palm Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "name": "Fingertip Transform"
+    },
+    {
+      "children": [
+        40,
+        41,
+        43
+      ],
+      "name": "UIInputEventSystem"
+    },
+    {
+      "name": "SoundOverrides"
+    },
+    {
+      "children": [
+        42
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        1.0
+      ],
+      "name": "LeftPointer"
+    },
+    {
+      "name": "LeftCursor"
+    },
+    {
+      "children": [
+        44
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        1.0
+      ],
+      "name": "RightPointer"
+    },
+    {
+      "name": "RightCursor"
+    },
+    {
+      "name": "Cognitive3D_Manager"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        4,
+        5,
+        21,
+        24,
+        39,
+        45
+      ],
+      "name": "scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "371857150CanvasMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "371857150CanvasMain"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "Directional Light"
+        }
+      ]
+    }
+  }
+}
