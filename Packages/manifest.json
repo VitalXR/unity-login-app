@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.cognitive3d.c3d-sdk": "https://github.com/CognitiveVR/cvr-sdk-unity.git",
     "com.dbrizov.naughtyattributes": "2.1.4",
     "com.ultraleap.tracking": "6.4.0",
     "com.ultraleap.tracking.preview": "6.5.0",
