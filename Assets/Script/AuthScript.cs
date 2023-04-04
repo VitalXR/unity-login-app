@@ -12,9 +12,9 @@ using Newtonsoft.Json;
 public class AuthScript : MonoBehaviour
 {
     public TextMeshProUGUI errorText;
-    
-    string _poolID = "ca-central-1_mXT7oFuXG";
-    string _clientID = "2ofpc2lft33nbe2nklbu46rlis";
+
+    string _poolID = "ca-central-1_eHW1dbu3l";
+    string _clientID = "jjtn2j7j876a13rfj6oqbf2j6";
 
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
@@ -25,7 +25,7 @@ public class AuthScript : MonoBehaviour
         errorText.text = "";
 
         //string username = "wei.kang8775@gmail.com";
-        //string password = "Wei.kang123";
+        //string password = "Wei.kang321";
 
         string username = usernameInput.text;
         string password = passwordInput.text;
