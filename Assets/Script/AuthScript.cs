@@ -24,9 +24,6 @@ public class AuthScript : MonoBehaviour
     {
         errorText.text = "";
 
-        //string username = "wei.kang8775@gmail.com";
-        //string password = "Wei.kang321";
-
         string username = usernameInput.text;
         string password = passwordInput.text;
 
