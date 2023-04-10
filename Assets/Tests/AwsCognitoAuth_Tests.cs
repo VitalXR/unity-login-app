@@ -13,7 +13,7 @@ public class AwsCognitoAuth_Tests
     public void GetAccessTokenTest()
     {
         // Use the Assert class to test conditions
-        AwsCognitoAuth auth = new AwsCognitoAuth();
+        AuthScript auth = new AuthScript();
         var token = auth.GetTokensAsync("d56aae88-62da-49de-8340-5d7a257c6995", "NewPassword456$");
         token.Wait();
         // TODO: Figure out why Debug.Log does not log access token, just says

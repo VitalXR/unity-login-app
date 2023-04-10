@@ -123,3 +123,27 @@ public class AuthScript : MonoBehaviour
         }
     }
 }
+
+// Temporary class used to store tokens.
+// Most likely will get rid of once we 
+// figure out how to globally store tokens in unity.
+public class Token
+{
+    public string accessToken;
+    public int expiresIn;
+    public string idToken;
+    public string refreshToken;
+    public string tokenType;
+}
+
+// Custom exception class. for AWSCognitoAuth.
+public class AwsCognitoAuthException : Exception
+{
+    public AwsCognitoAuthException(string message) : base(message)
+    {
+    }
+
+    public AwsCognitoAuthException(string message, Exception inner) : base(message, inner)
+    {
+    }
+}
